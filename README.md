@@ -1,0 +1,1 @@
+This project focuses on studying the STM32F103C8T6 microcontroller, UART communication, ADC conversion, and implementing a remote alert system using wireless sensors to transmit data to a server. The collected data is then displayed on a website for users to access. For programming and debugging the microcontroller, I used Keil C along with STM32CubeMX for hardware configuration.
