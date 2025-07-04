@@ -1,0 +1,27 @@
+--cpu Cortex-M3
+"projet1\startup_stm32f103xb.o"
+"projet1\lcd_16x2.o"
+"projet1\main.o"
+"projet1\stm32f1xx_it.o"
+"projet1\stm32f1xx_hal_msp.o"
+"projet1\stm32f1xx_hal_gpio_ex.o"
+"projet1\stm32f1xx_hal_adc.o"
+"projet1\stm32f1xx_hal_adc_ex.o"
+"projet1\stm32f1xx_hal.o"
+"projet1\stm32f1xx_hal_rcc.o"
+"projet1\stm32f1xx_hal_rcc_ex.o"
+"projet1\stm32f1xx_hal_gpio.o"
+"projet1\stm32f1xx_hal_dma.o"
+"projet1\stm32f1xx_hal_cortex.o"
+"projet1\stm32f1xx_hal_pwr.o"
+"projet1\stm32f1xx_hal_flash.o"
+"projet1\stm32f1xx_hal_flash_ex.o"
+"projet1\stm32f1xx_hal_exti.o"
+"projet1\stm32f1xx_hal_tim.o"
+"projet1\stm32f1xx_hal_tim_ex.o"
+"projet1\stm32f1xx_hal_uart.o"
+"projet1\system_stm32f1xx.o"
+--strict --scatter "projet1\projet1.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "projet1.map" -o projet1\projet1.axf
