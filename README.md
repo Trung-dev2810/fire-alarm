@@ -25,4 +25,5 @@ This project aims to design a gas leak and fire detection system using an MQ2 se
 ---
 
 ## 🧱 System Architecture
+
 ![System Diagram](./assets/system_block_diagram.png)
