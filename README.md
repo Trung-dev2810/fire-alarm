@@ -21,6 +21,3 @@ This project aims to design a gas leak and fire detection system using an MQ2 se
 - **STM32F103C8T6 MCU** – processes sensor data and controls output.
 - **ESP8266-01 WiFi Module** – sends data to the cloud (ThingsBoard server).
 - **LCD1602 Display** – visualizes sensor values and alerts.
-
----
-
