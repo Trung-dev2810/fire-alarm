@@ -1,10 +1,10 @@
-# 🔥 IoT-Based Gas Leak and Fire Detection System
+# IoT-Based Gas Leak and Fire Detection System
 
 This project aims to design a gas leak and fire detection system using an MQ2 sensor, STM32 microcontroller, and ESP8266 WiFi module to alert users both locally and remotely via a Web Server.
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 - Detect flammable and toxic gases: LPG, Methane, Alcohol, CO...
 - Display gas levels and alerts on an LCD screen.
@@ -13,7 +13,7 @@ This project aims to design a gas leak and fire detection system using an MQ2 se
 
 ---
 
-## 💡 System Overview
+## System Overview
 
 ### Main Functional Blocks:
 
